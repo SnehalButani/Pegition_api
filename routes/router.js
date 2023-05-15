@@ -6,7 +6,7 @@ const router = express.Router();
 
 
 router.get('/Comment',Comment.Read);
-router.get('/Pegition',Comment.Pegition);
+router.get('/',Comment.Pegition);
 
 
 
